@@ -1,2 +1,4 @@
 # My_Info_Visualization_Data
-Contains, Adapted datasets from https://github.com/rfordatascience/tidytuesday/ that are used for my info visualization assignment. 
+Contains, Adapted datasets from https://github.com/rfordatascience/tidytuesday/ that are used for my info visualization assignment.
+
+The races.csv file contains information on ultra trail races including  race_year_id, name of event, race name, city hosted in, country its hosted in, date, start time, participation type, distance, elevation gain and loss, and number of aid stations and number of participants. From this I processed using python and derived the dataset “races_clean.csv” where I cleaned the dataset of null and empty values relevant to my analysis. I also corrected names of city’s that hosted events and removed records of races outside of Europe. And lastly, I retrieved the coordinates values (quantitative) of the cities listed in Europe and placed them into the dataset.
